@@ -1,0 +1,222 @@
+[
+  {
+    "text": "Use joblib.dump(model, 'model.pkl') to save trained sklearn models",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Save trained AI models as pkl files before deployment",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Store neural network weights after training completion",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Persist trained machine learning models to disk",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Save both preprocessing pipeline and trained classifier together",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Backup trained model checkpoints regularly during training",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Serialize trained models before production deployment",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Use torch.save for storing PyTorch model weights",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Export TensorFlow models using SavedModel format",
+    "intent": "model_saving"
+  },
+  {
+    "text": "Restore trained machine learning models from saved pkl files",
+    "intent": "model_loading"
+  },
+  {
+    "text": "Load saved neural network weights before inference",
+    "intent": "model_loading"
+  },
+  {
+    "text": "Recover trained models from checkpoint files",
+    "intent": "model_loading"
+  },
+  {
+    "text": "Use joblib.load to restore serialized sklearn models",
+    "intent": "model_loading"
+  },
+  {
+    "text": "Load pretrained models for evaluation and testing",
+    "intent": "model_loading"
+  },
+  {
+    "text": "Move project files to another laptop using GitHub repository",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Clone the project repository on another machine",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Transfer full development environment to another system",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Share project setup using requirements.txt file",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Move machine learning project to another computer safely",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Use virtual environments while transferring projects",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Push code to GitHub before changing systems",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Copy source code and trained models to another laptop",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Install all dependencies before running transferred projects",
+    "intent": "project_transfer"
+  },
+  {
+    "text": "Resolve module not found errors using pip install",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Dependency conflicts occur when package versions mismatch",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Install missing Python libraries using requirements.txt",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Fix pip installation failures by upgrading pip version",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Use virtual environments to isolate project dependencies",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Package installation errors may happen because of incompatible Python versions",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Resolve dependency conflicts using pip freeze and clean reinstall",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Use compatible package versions for stable environments",
+    "intent": "dependency_issue"
+  },
+  {
+    "text": "Run FastAPI applications using uvicorn app.main:app --reload",
+    "intent": "project_run"
+  },
+  {
+    "text": "Start Flask projects using flask run command",
+    "intent": "project_run"
+  },
+  {
+    "text": "Run Django development server using manage.py runserver",
+    "intent": "project_run"
+  },
+  {
+    "text": "Activate virtual environment before starting the application",
+    "intent": "project_run"
+  },
+  {
+    "text": "Use npm start for launching frontend React applications",
+    "intent": "project_run"
+  },
+  {
+    "text": "Execute Python scripts using python filename.py",
+    "intent": "project_run"
+  },
+  {
+    "text": "Run backend APIs locally for testing and debugging",
+    "intent": "project_run"
+  },
+  {
+    "text": "Verify environment variables before project startup",
+    "intent": "project_run"
+  },
+  {
+    "text": "Docker containers may fail because of port conflicts",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Restart Docker daemon when containers fail unexpectedly",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Use docker compose up to launch multi-container applications",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Fix Docker build errors by validating Dockerfile syntax",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Container crashes may occur due to missing environment variables",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Check container logs using docker logs command",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Rebuild Docker images after modifying dependencies",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Use volume mounts carefully to avoid permission issues",
+    "intent": "docker_issue"
+  },
+  {
+    "text": "Resolve git merge conflicts before pushing code",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Use git pull before git push to sync latest changes",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Authentication errors may happen because of expired GitHub tokens",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Clone repositories using git clone repository_url",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Use git checkout to switch between branches",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Fix detached HEAD state by checking out a valid branch",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Git rebase conflicts should be resolved carefully",
+    "intent": "git_issue"
+  },
+  {
+    "text": "Use meaningful commit messages for better collaboration",
+    "intent": "git_issue"
+  }
+]

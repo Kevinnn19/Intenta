@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Refund requests are processed within 5 to 7 business days",
+    "intent": "refund"
+  },
+  {
+    "text": "Users can request refunds for failed transactions",
+    "intent": "refund"
+  },
+  {
+    "text": "Refund status can be checked from the billing dashboard",
+    "intent": "refund"
+  },
+  {
+    "text": "Initiate refund requests through the payment portal",
+    "intent": "refund"
+  },
+  {
+    "text": "Partial refunds are supported for eligible subscriptions",
+    "intent": "refund"
+  },
+  {
+    "text": "Refunds are credited back to the original payment method",
+    "intent": "refund"
+  },
+  {
+    "text": "Payment gateway failures may delay refund processing",
+    "intent": "refund"
+  },
+  {
+    "text": "Contact support if refunds are not received after seven days",
+    "intent": "refund"
+  },
+  {
+    "text": "Failed payments may happen because of insufficient account balance",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Retry payment after verifying debit or credit card details",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Expired cards may cause transaction failures",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Bank servers may temporarily reject online transactions",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Payment failures can occur because of network interruptions",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Enable international transactions for global payments",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Verify OTP authentication before retrying transactions",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Use supported payment gateways for successful billing",
+    "intent": "payment_failed"
+  },
+  {
+    "text": "Invoices are generated automatically after successful payments",
+    "intent": "invoice_request"
+  },
+  {
+    "text": "Download billing invoices from the account dashboard",
+    "intent": "invoice_request"
+  },
+  {
+    "text": "Monthly invoices include taxes and subscription details",
+    "intent": "invoice_request"
+  },
+  {
+    "text": "Generate PDF invoices for completed transactions",
+    "intent": "invoice_request"
+  },
+  {
+    "text": "Invoice history is available in billing settings",
+    "intent": "invoice_request"
+  },
+  {
+    "text": "Subscription renewals are billed automatically every month",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Cancel subscriptions before renewal dates to avoid charges",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Billing cycles can be monthly or yearly depending on the plan",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Upgrade subscriptions to access premium features",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Downgrading subscriptions may reduce available resources",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Auto-renewal settings can be managed in account preferences",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Trial subscriptions automatically convert to paid plans after expiration",
+    "intent": "subscription_billing"
+  },
+  {
+    "text": "Billing information should match bank account details",
+    "intent": "billing_information"
+  },
+  {
+    "text": "Update payment methods from billing settings page",
+    "intent": "billing_information"
+  },
+  {
+    "text": "Incorrect billing addresses may cause payment rejection",
+    "intent": "billing_information"
+  },
+  {
+    "text": "Users can add multiple payment methods for backup",
+    "intent": "billing_information"
+  },
+  {
+    "text": "Secure payment gateways encrypt billing information",
+    "intent": "billing_information"
+  },
+  {
+    "text": "Remove outdated cards from payment settings",
+    "intent": "billing_information"
+  },
+  {
+    "text": "Tax details are included in billing records automatically",
+    "intent": "billing_information"
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "text": "Reset account passwords using the forgot password option",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Users can recover accounts through registered email addresses",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Password reset links expire after fifteen minutes",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Use strong passwords with uppercase letters and symbols",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Account recovery requires email verification",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Reset passwords immediately after suspicious login attempts",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Two-factor authentication improves account security",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Users receive password reset instructions via email",
+    "intent": "password_reset"
+  },
+  {
+    "text": "Login failures may happen because of incorrect credentials",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Verify username and password before retrying login",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Clear browser cache if login pages fail to load",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Account lockouts occur after multiple failed login attempts",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Enable cookies and JavaScript for proper authentication",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Authentication tokens may expire after inactivity",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Use valid email addresses while signing into accounts",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Login sessions automatically expire for inactive users",
+    "intent": "login_issue"
+  },
+  {
+    "text": "Update account profile information from settings page",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Users can change profile pictures anytime",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Verify phone numbers before updating account details",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Profile updates may require email confirmation",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Incorrect profile information can affect account recovery",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Users should keep profile details up to date",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Email addresses can be modified from account settings",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Account settings allow users to manage preferences",
+    "intent": "profile_update"
+  },
+  {
+    "text": "Deactivate accounts temporarily from privacy settings",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Users can permanently delete accounts if needed",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Account deactivation removes access to premium services",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Deleted accounts cannot always be recovered",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Verify identity before processing account deletion requests",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Inactive accounts may be removed after long inactivity periods",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Users receive confirmation emails after account deletion",
+    "intent": "account_deactivation"
+  },
+  {
+    "text": "Privacy settings control account visibility and permissions",
+    "intent": "account_security"
+  },
+  {
+    "text": "Enable multi-factor authentication for better security",
+    "intent": "account_security"
+  },
+  {
+    "text": "Monitor suspicious login attempts from unknown devices",
+    "intent": "account_security"
+  },
+  {
+    "text": "Change passwords regularly to maintain account security",
+    "intent": "account_security"
+  },
+  {
+    "text": "Security alerts notify users about unusual account activity",
+    "intent": "account_security"
+  },
+  {
+    "text": "Secure accounts using recovery emails and backup methods",
+    "intent": "account_security"
+  },
+  {
+    "text": "Unauthorized access attempts should be reported immediately",
+    "intent": "account_security"
+  }
+]

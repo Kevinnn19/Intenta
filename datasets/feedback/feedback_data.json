@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2026-06-01T09:41:24.970392",
+        "query": "my password is not working",
+        "predicted_intent": "login_issue",
+        "source": "account",
+        "feedback": "positive"
+    },
+    {
+        "timestamp": "2026-06-04T09:32:21.206913",
+        "query": "I cannot sign in",
+        "predicted_intent": "login_issue",
+        "source": "account",
+        "feedback": "positive"
+    },
+    {
+        "timestamp": "2026-06-04T09:32:42.831571",
+        "query": "I forgot my password",
+        "predicted_intent": "login_issue",
+        "source": "account",
+        "feedback": "positive"
+    },
+    {
+        "timestamp": "2026-06-04T09:34:35.354120",
+        "query": "My payment deducted but failed",
+        "predicted_intent": "training_error",
+        "source": "billing",
+        "feedback": "negative"
+    }
+]

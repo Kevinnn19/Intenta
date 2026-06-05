@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+joblib
+numpy
+sentence-transformers
+torch
+faiss-cpu
+rank-bm25
+langdetect
+deep-translator
+matplotlib
+seaborn
+requests
+pytest
+pandas
