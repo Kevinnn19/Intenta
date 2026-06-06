@@ -345,3 +345,8 @@ http://127.0.0.1:8000/docs
 **Kevin**
 
 Machine Learning Engineer | MLOps Enthusiast
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![CI](https://github.com/Kevinnn19/Intenta/actions/workflows/ci.yml/badge.svg)

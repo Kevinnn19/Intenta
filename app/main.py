@@ -19,7 +19,7 @@ def root():
     return {"message": "Intenta API is running"}
 
 @app.get("/health")
-def health_check():
+def health():
     return {"status": "healthy"}
 
 @app.post("/predict")
