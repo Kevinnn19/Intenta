@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+.pytest_cache/
+.git/
+.idea/
+.vscode/
+
+datasets/CLINC150/
+
+notebooks/
+
+*.pyc
+*.pyo
+*.pyd
+
+Dockerfile.old
+requirements_dev.txt
