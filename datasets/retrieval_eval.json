@@ -1,0 +1,142 @@
+[
+  {
+    "query": "how do i reset my password",
+    "domain": "account",
+    "relevant_texts": ["Reset account passwords using the forgot password option"]
+  },
+  {
+    "query": "forgot my account password",
+    "domain": "account",
+    "relevant_texts": ["Reset account passwords using the forgot password option"]
+  },
+  {
+    "query": "recover my account",
+    "domain": "account",
+    "relevant_texts": ["Users can recover accounts through registered email addresses"]
+  },
+  {
+    "query": "account recovery email",
+    "domain": "account",
+    "relevant_texts": ["Account recovery requires email verification"]
+  },
+  {
+    "query": "password reset link expired",
+    "domain": "account",
+    "relevant_texts": ["Password reset links expire after fifteen minutes"]
+  },
+  {
+    "query": "strong password requirements",
+    "domain": "account",
+    "relevant_texts": ["Use strong passwords with uppercase letters and symbols"]
+  },
+
+  {
+    "query": "how do i request a refund",
+    "domain": "billing",
+    "relevant_texts": ["Users can request refunds for failed transactions"]
+  },
+  {
+    "query": "refund process time",
+    "domain": "billing",
+    "relevant_texts": ["Refund requests are processed within 5 to 7 business days"]
+  },
+  {
+    "query": "track my refund",
+    "domain": "billing",
+    "relevant_texts": ["Refund status can be checked from the billing dashboard"]
+  },
+  {
+    "query": "where can i check refund status",
+    "domain": "billing",
+    "relevant_texts": ["Refund status can be checked from the billing dashboard"]
+  },
+  {
+    "query": "partial refund available",
+    "domain": "billing",
+    "relevant_texts": ["Partial refunds are supported for eligible subscriptions"]
+  },
+  {
+    "query": "payment refund portal",
+    "domain": "billing",
+    "relevant_texts": ["Initiate refund requests through the payment portal"]
+  },
+
+  {
+    "query": "save machine learning model",
+    "domain": "technical",
+    "relevant_texts": ["Persist trained machine learning models to disk"]
+  },
+  {
+    "query": "save sklearn model",
+    "domain": "technical",
+    "relevant_texts": ["Use joblib.dump(model, 'model.pkl') to save trained sklearn models"]
+  },
+  {
+    "query": "store trained model",
+    "domain": "technical",
+    "relevant_texts": ["Save trained AI models as pkl files before deployment"]
+  },
+  {
+    "query": "save neural network weights",
+    "domain": "technical",
+    "relevant_texts": ["Store neural network weights after training completion"]
+  },
+  {
+    "query": "persist model after training",
+    "domain": "technical",
+    "relevant_texts": ["Persist trained machine learning models to disk"]
+  },
+  {
+    "query": "save preprocessing pipeline",
+    "domain": "technical",
+    "relevant_texts": ["Save both preprocessing pipeline and trained classifier together"]
+  },
+
+  {
+    "query": "પાસવર્ડ રીસેટ કેવી રીતે કરું",
+    "domain": "account",
+    "relevant_texts": ["Reset account passwords using the forgot password option"]
+  },
+  {
+    "query": "એકાઉન્ટ રિકવર કરવું છે",
+    "domain": "account",
+    "relevant_texts": ["Users can recover accounts through registered email addresses"]
+  },
+  {
+    "query": "પાસવર્ડ રિકવરી",
+    "domain": "account",
+    "relevant_texts": ["Account recovery requires email verification"]
+  },
+
+  {
+    "query": "रिफंड कैसे प्राप्त करें",
+    "domain": "billing",
+    "relevant_texts": ["Users can request refunds for failed transactions"]
+  },
+  {
+    "query": "रिफंड स्टेटस चेक करें",
+    "domain": "billing",
+    "relevant_texts": ["Refund status can be checked from the billing dashboard"]
+  },
+  {
+    "query": "रिफंड कितने दिनों में मिलेगा",
+    "domain": "billing",
+    "relevant_texts": ["Refund requests are processed within 5 to 7 business days"]
+  },
+
+  {
+    "query": "मॉडल कैसे सेव करें",
+    "domain": "technical",
+    "relevant_texts": ["Persist trained machine learning models to disk"]
+  },
+  {
+    "query": "sklearn model save",
+    "domain": "technical",
+    "relevant_texts": ["Use joblib.dump(model, 'model.pkl') to save trained sklearn models"]
+  },
+  {
+    "query": "neural network weights save",
+    "domain": "technical",
+    "relevant_texts": ["Store neural network weights after training completion"]
+  }
+]

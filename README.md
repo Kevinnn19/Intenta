@@ -8,6 +8,19 @@ The project combines traditional NLP, semantic embeddings, vector search, and RE
 
 ---
 
+## Live Demo
+
+API Base URL:
+https://intenta-api-3r59.onrender.com/
+
+Swagger Documentation:
+https://intenta-api-3r59.onrender.com/docs
+
+Health Check:
+https://intenta-api-3r59.onrender.com/health
+
+---
+
 ## Example Workflow
 
 ```text

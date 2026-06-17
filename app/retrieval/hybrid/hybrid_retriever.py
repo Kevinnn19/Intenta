@@ -29,6 +29,9 @@ class HybridRetriever:
             [item["score"] for item in keyword_results],
             default=1
         )
+        # Avoid division by zero when all keyword scores are 0
+        if max_keyword == 0:
+            max_keyword = 1
 
         combined = {}
 
