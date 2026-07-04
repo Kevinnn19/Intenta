@@ -11,7 +11,6 @@ VECTORSTORE_DIR = BASE_DIR / "vectorstores"
 class SemanticRetriever:
     def __init__(self):
         self.loaded_index = {}
-        print("Semantic retriever initialized successfully.")
 
     def load_domain(self, domain):
         if domain in self.loaded_index:
@@ -31,8 +30,6 @@ class SemanticRetriever:
             "index": idx,
             "metadata": metadata,
         }
-
-        print(f"{domain} vectorstore loaded.")
 
         return self.loaded_index[domain]
 

@@ -19,10 +19,6 @@ X_train, y_train, X_test, y_test = load_dataset()
 X_test = clean_batch(X_test)
 
 predictions = pipeline.predict(X_test)
-print("Classification report: ",classification_report(y_test, predictions, zero_division=0))
-print("Accuracy: ",accuracy_score(y_test, predictions))
-print("F1 score: ",f1_score(y_test, predictions, average="macro"))
-print("Weighted F1 score: ", f1_score(y_test, predictions, average="weighted"))
 
 cm = confusion_matrix(y_test, predictions)
 

@@ -2,14 +2,21 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 
 # Virtual Environment
 venv/
+env/
+.venv/
 .env
 
 # IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
 
 # Jupyter
 .ipynb_checkpoints/
@@ -32,6 +39,20 @@ dist/
 # Coverage
 .coverage
 htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# Model files
+*.joblib
+*.pkl
+*.pickle
+
+# Generated vector stores
+vectorstores/
+
+# Generated data
+datasets/feedback/feedback_data.json
 
 # Temporary
 temp/

@@ -5,7 +5,6 @@ class HybridRetriever:
     def __init__(self):
         self.semantic = SemanticRetriever()
         self.keyword = KeywordRetriever()
-        print("Hybrid retriever initialized successfully.")
 
     def retrieve(self, query, domain, intent=None, top_k=5):
         semantic_results = self.semantic.retrieve(

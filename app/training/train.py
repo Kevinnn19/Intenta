@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from joblib import dump
 from pathlib import Path
 from app.utils.data_loader import load_dataset
-from app.preprocessing.text_cleaner import clean_text, clean_batch
+from app.preprocessing.text_cleaner import clean_batch
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -30,8 +30,6 @@ pipeline.fit(X_train, y_train)
 predictions = pipeline.predict(X_test)
 
 accuracy = accuracy_score(y_test, predictions)
-print(accuracy)
-print(classification_report(y_test, predictions))
 
 MODEL_DIR = MODEL_DIR / "developer_intent_classifier.joblib"
 dump(pipeline, MODEL_DIR)

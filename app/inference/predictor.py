@@ -28,10 +28,6 @@ def predict_intent(text: str):
     intent_score = list(zip(labels, probabilities))
     intent_score = sorted(intent_score, key=lambda x: x[1], reverse=True)
 
-    print("\nTOP INTENTS:")
-    for intent, score in intent_score[:5]:
-        print(intent, round(score, 4))
-
     top_intent, top_score = intent_score[0]
     second_intent, second_score = intent_score[1]
     confidence_gap = top_score - second_score

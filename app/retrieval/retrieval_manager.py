@@ -9,7 +9,6 @@ class RetrievalManager:
 
     def __init__(self):
         self.retriever = HybridRetriever()
-        print("Retrieval Manager initialized.")
 
     def retrieve(self, query, source, intent):
         if source not in self.VALID_DOMAINS:

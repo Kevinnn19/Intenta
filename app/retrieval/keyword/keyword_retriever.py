@@ -10,7 +10,6 @@ class KeywordRetriever:
 
     def __init__(self):
         self.loaded_domains = {}
-        print("Keyword retriever initialized successfully.")
 
     def load_domain(self, domain):
         if domain in self.loaded_domains:
@@ -38,8 +37,6 @@ class KeywordRetriever:
             "bm25": bm25,
             "metadata": metadata
         }
-
-        print(f"{domain} keyword index loaded.")
 
         return self.loaded_domains[domain]
 
